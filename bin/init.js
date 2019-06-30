@@ -59,7 +59,6 @@ const release = async () => {
     execSycnc("snake -h");
   }
   if ( Number(nodeVersion.split(".")[0]) < 8) {
-     console.log(999,version)
     console.log("Please make sure the node version is above 8.0".red);
     process.exit();
   }
@@ -67,7 +66,6 @@ const release = async () => {
   const argv3 = process.argv[3];
   if (argv2 === "init") {
     let projectName = argv3;
-    console.log(22,projectName)
     if(fs.existsSync(projectName)){
       console.log(
         "\n the dir has exists, please input another one".green + "\n"
@@ -77,7 +75,6 @@ const release = async () => {
     const selectMode = await mode()
     fs.mkdirSync(projectName)
     const currentPath = path.resolve(__dirname,"..")
-    console.log(777,__dirname,currentPath)
     const copyedDir = currentPath + type(selectMode.flag);
     doCopyDir(copyedDir,projectName)
   }
@@ -89,4 +86,3 @@ release().catch(err => {
 });
 
 commander.parse(process.argv);
-console.log(111,process.argv)

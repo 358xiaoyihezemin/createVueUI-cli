@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 exports.mode = async function () {
-  console.log(999)
   return await inquirer.prompt([{
     name: "flag",
     message: "select a mode",
