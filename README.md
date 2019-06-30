@@ -6,5 +6,5 @@ npm install -g createvueui-cli
 
 ### 然后
 ```
-npm init <dir>
+createVueUI init <dir>
 ```
