@@ -46,7 +46,7 @@ function doCopyDir (dir,projectName){
     console.log("To get started");
     console.log();
     console.log(`    cd ${projectName}`.red);
-    console.log("    yarn && npm run start".red);
+    console.log("    npm install && npm run start".red);
   })
 }
 commander
