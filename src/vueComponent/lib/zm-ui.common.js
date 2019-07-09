@@ -1503,8 +1503,8 @@ module.exports = function (it) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
-// This file is imported into lib/wc client bundles.
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/bin/commands/build/setPublicPath.js
+// This file is imported into bin/wc client bundles.
 
 if (typeof window !== 'undefined') {
   if (true) {
@@ -1579,14 +1579,14 @@ function _objectSpread(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2333fe6e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/test/src/test.vue?vue&type=template&id=6e5135f5&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2333fe6e-vue-loader-template"}!./node_modules/vue-loader/bin/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/bin??vue-loader-options!./packages/test/src/test.vue?vue&type=template&id=6e5135f5&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"xr-test",on:{"click":_vm.handleClick}},[_vm._v(_vm._s(_vm.num))])}
 var staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./packages/test/src/test.vue?vue&type=template&id=6e5135f5&scoped=true&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/test/src/test.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/bin!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/bin??vue-loader-options!./packages/test/src/test.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -1611,7 +1611,7 @@ var staticRenderFns = []
 // EXTERNAL MODULE: ./packages/test/src/test.vue?vue&type=style&index=0&id=6e5135f5&lang=scss&scoped=true&
 var testvue_type_style_index_0_id_6e5135f5_lang_scss_scoped_true_ = __webpack_require__("2093");
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+// CONCATENATED MODULE: ./node_modules/vue-loader/bin/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
 // IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
@@ -1762,7 +1762,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 /* harmony default export */ var packages_0 = (_objectSpread({
   install: install
 }, components));
-// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/bin/commands/build/entry-bin.js
 
 
 /* harmony default export */ var entry_lib = __webpack_exports__["default"] = (packages_0);

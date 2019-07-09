@@ -1,4 +1,4 @@
-#!/usr/lib/env node
+#!/usr/bin/env node
 const shell = require('shelljs');
 const commander = require('commander');
 const download = require('download-git-repo');
