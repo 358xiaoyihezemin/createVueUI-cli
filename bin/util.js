@@ -6,11 +6,11 @@ exports.mode = async function () {
     type: "list",
     choices:[
       {
-        name: "vue + vue-router + vuex + typeScript",
+        name: "创建一个项目(vue + vue-router + vuex + typeScript)",
         value: "vueProject"
       },
       {
-        name: "vue + vw",
+        name: "创建一个组件库(vue)",
         value: "vueComponent"
       }
     ]
