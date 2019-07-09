@@ -10,7 +10,7 @@ exports.mode = async function () {
         value: "vueProject"
       },
       {
-        name: "创建一个组件库(vue)",
+        name: "创建一个vue组件库(npmignore需自行填加)",
         value: "vueComponent"
       }
     ]
