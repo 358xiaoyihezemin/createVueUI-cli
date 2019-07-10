@@ -30,4 +30,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### 参考目录结构
-![avatar](/public/code.png)
+```
+参考public目录下code.png
+```
